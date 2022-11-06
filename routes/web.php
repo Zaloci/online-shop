@@ -39,17 +39,17 @@ Route::middleware([ 'auth' ])->group(function () {
         Route::put('/admin/products/{id}', [ProductController::class, 'update'])->name('products.update');
 
         /*Category Route*/
-        Route::get('/admin/categories', [App\Http\Controllers\CategoryController::class, 'index'])->name('category.index');
+        Route::get('/admin/category', [App\Http\Controllers\CategoryController::class, 'index'])->name('category.index');
 
-        Route::get('/admin/categories/create', [CategoryController::class, 'create'])->name('category.create');
+        Route::get('/admin/category/create', [CategoryController::class, 'create'])->name('category.create');
 
-        Route::post('/admin/categories/store', [CategoryController::class, 'store'])->name('category.store');
+        Route::post('/admin/category/store', [CategoryController::class, 'store'])->name('category.store');
 
-        Route::delete('/admin/categories/{id}', [CategoryController::class, 'delete'])->name('category.delete');
+        Route::delete('/admin/category/{id}', [CategoryController::class, 'delete'])->name('category.delete');
 
-        Route::get('/admin/categories/{id}/edit', [CategoryController::class, 'edit'])->name('category.edit');
+        Route::get('/admin/category/{id}/edit', [CategoryController::class, 'edit'])->name('category.edit');
 
-        Route::put('/admin/categories/{id}', [CategoryController::class, 'update'])->name('category.update');
+        Route::put('/admin/category/{id}', [CategoryController::class, 'update'])->name('category.update');
 
     });
 

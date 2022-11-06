@@ -4,7 +4,7 @@
 
  <div class="row mt-3">
             <div class="col-sm-12 col-md-8">
-                <h2 class="text-primary">List Products</h2>
+                <h2 class="text-dark">List Products</h2>
             </div>
             <div class="col-sm-12 col-md-4">
                 <a href="{{ route('products.create')}}" class="btn btn-outline-primary float-end">Add Product</a>
@@ -12,7 +12,7 @@
         </div>
         <div class="table-responsive">
             <table class="table mt-2">
-            <thead class="bg-primary text-white">
+            <thead class="bg-dark text-white">
               <tr>
                 <th scope="col">No</th>
                 <th scope="col">Name</th>

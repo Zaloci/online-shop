@@ -8,7 +8,7 @@
   </head>
 
   <body> 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Online Shop</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
                 <a class="nav-link active" aria-current="page" href="{{ route('products.index')}}">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{ route('categories.index')}}">Category</a>
+                <a class="nav-link active" aria-current="page" href="{{ route('category.index')}}">Category</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
